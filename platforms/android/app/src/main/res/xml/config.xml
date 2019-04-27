@@ -13,7 +13,7 @@
     <feature name="AndroidFullScreen">
         <param name="android-package" value="com.mesmotronic.plugins.FullScreenPlugin" />
     </feature>
-    <name>58 Pay</name>
+    <name>快手賺</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -29,8 +29,9 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-navigation href="*" />
-    <icon src="res/icon/android/logo.png" />
+    <icon src="res/icon/android/logo2.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
     <preference name="android-manifest/application/activity/@android:windowSoftInputMode" value="adjustPan" />
 </widget>

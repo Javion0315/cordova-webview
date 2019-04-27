@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>58 Pay</name>
+    <name>快手賺</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -8,6 +8,7 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -28,7 +29,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
-    <icon src="res/icon/android/logo.png" />
+    <icon src="res/icon/android/logo2.png" />
     <plugin name="cordova-plugin-insomnia" spec="https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git" />
     <feature name="Insomnia">
         <param name="android-package" value="nl.xservices.plugins.Insomnia" />
@@ -39,4 +40,5 @@
         <preference name="android-manifest/application/activity/@android:windowSoftInputMode" value="adjustPan" />
     </platform>
     <engine name="android" spec="^7.0.0" />
+    <engine name="ios" spec="^4.5.5" />
 </widget>

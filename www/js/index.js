@@ -29,7 +29,11 @@ var app = {
     onDeviceReady: function() {
         
         // this.receivedEvent('deviceready');
-        var ref = window.open('https://javion.honor5858.com/mobilepay/public/vueAPP', '_self', 'location=no');
+        // var ref = window.open('https://app.58payhub.com/vueAPP', '_self', 'location=no');
+        //快手
+        var ref = window.open('https://app.ksz365.com/vueAPP/', '_self', 'location=no');
+        //58pay
+        // var ref = window.open('https://javion.honor5858.com/mobilepay/public/vueAPP/login', '_self', 'location=no');
         ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
         // ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
         // ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });

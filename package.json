@@ -12,6 +12,7 @@
     "dependencies": {
         "cordova-android": "^7.0.0",
         "cordova-custom-config": "^5.0.3",
+        "cordova-ios": "^4.5.5",
         "cordova-plugin-fullscreen": "^1.2.0",
         "cordova-plugin-inappbrowser": "^3.0.0",
         "cordova-plugin-insomnia": "git+https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git",
@@ -27,7 +28,8 @@
             "cordova-custom-config": {}
         },
         "platforms": [
-            "android"
+            "android",
+            "ios"
         ]
     }
 }
